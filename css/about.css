@@ -1,0 +1,12 @@
+/* main */
+
+
+/* tablette */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+
+}
+
+/* desktop */
+@media all and (min-width: 1025px) {
+    
+}

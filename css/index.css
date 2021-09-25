@@ -1,0 +1,196 @@
+/* .main */
+/* first section */
+.main .firstSection {
+	display: none;
+	width: 100%;
+	text-align: center;
+	background: #f2f2f2;
+}
+.main .firstSection ul {
+	width: inherit;
+	margin: 0;
+	list-style: none;
+	padding: 0;
+}
+.main .firstSection h1 {
+	padding: 2rem 0;
+	font-size: 4.5rem;
+	color: #95ae12;
+}
+.main .firstSection img {
+	width: 100%;
+	height: inherit;
+}
+.main .firstSection .clause {
+	font-size: 2rem;
+	color: dimgrey;
+	padding-bottom: 2.5rem;
+}
+.main .firstSection .flexslider {
+	background: #f2f2f2;
+	border: #f2f2f2;
+}
+/* choose tea section */
+.main .chooseTea {
+	margin: 6rem 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 2rem 0;
+}
+.main .chooseTea h2 {
+	flex-basis: 95%;
+	text-align: center;
+	color: #95ae12;
+	font-size: 3.5rem;
+}
+.main h2::after {
+	content: "";
+	border-bottom: 1px solid #95ae12;
+	margin-top: -29px;
+	display: block;
+}
+.main section h2 span {
+	background-color: white;
+	flex-basis: 95%;
+	text-align: center;
+	color: #95ae12;
+	font-size: 5.5rem;
+	font-weight: normal;
+	padding: 0 2rem;
+}
+.main .chooseTea  article {
+	flex-basis: 40%;
+	text-align: center;
+}
+.main .chooseTea article a img {
+	display: block;
+	width: 30rem;
+}
+
+.main .chooseTea article a {
+	display: inline-block;
+	text-align: center;
+	font-size: 3rem;
+	font-weight: bold;
+	color: dimgray;
+}
+.main article h2 {
+	flex-basis: 95%;
+	text-align: center;
+	color: #95ae12;
+	font-size: 3.5rem;
+	width: 95%;
+}
+/* Second section */
+.bestProduct {
+	margin-bottom: 10rem;
+}
+.bestProduct article {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 2rem;
+}
+.bestProduct img {
+	width: 50rem;
+}
+.bestProduct p {
+	font-size: 3rem;
+	text-align: center;
+	color: dimgray;
+}
+.para {
+	width: 90%;
+}
+
+/* Tablette */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+	/* first section */
+	.main .firstSection {
+		display: flex;
+	}
+	/* choose tea section */
+	.main .chooseTea {
+		justify-content: space-around;
+	}
+	.main .chooseTea article a {
+		font-size: 2.3rem;
+	}
+	.main .chooseTea article a img {
+		width: 19rem;
+	}
+	.main article h2, .main .chooseTea h2 {
+		font-size: 7.5rem;
+		margin: 0 0 3.5rem 0;
+	}
+	.main section h2 span {
+		font-size: 3.5rem;
+	}
+	.bestProduct img {
+		width: 35rem;
+	}
+	.bestProduct p {
+		font-size: 2.5rem;
+	}
+	.btn_View {
+		font-size: 2.3rem;
+		padding: 2.2rem;
+	}
+}
+
+/* dekstop */
+@media all and (min-width: 1025px) {
+	/* first section */
+	.main .firstSection {
+		display: flex;
+	}
+	.main .firstSection h1 {
+		font-size: 3rem;
+	}
+	.main .firstSection .clause {
+		font-size: 1rem;
+	}
+	/* choose tea section */
+	.main .chooseTea {
+		justify-content: space-around;
+		margin: 2rem 0;
+	}
+	.main .chooseTea article {
+		flex-basis: 20%;
+	}
+	.main .chooseTea article a {
+		font-size: 2.3rem;
+	}
+	.main .chooseTea article a img {
+		width: 14rem;
+	}
+	.main article h2, .main .chooseTea h2 {
+		font-size: 4.5rem;
+		margin: 0 0 3.5rem 0;
+	}
+	.main h2::after {
+		margin-top: -15px;
+	}
+	.main section h2 span {
+		font-size: 2.5rem;
+	}
+	.bestProduct {
+		display: flex;
+		margin-bottom: 4rem;
+	}
+	.bestProduct article {
+		flex-basis: 33%;
+		padding: 2rem 0;
+	}
+	.bestProduct img {
+		width: 27rem;
+	}
+	.bestProduct p {
+		font-size: 1.6rem;
+	}
+	.btn_View {
+		font-size: 1.4rem;
+		padding: 1.4rem;
+	}
+}
